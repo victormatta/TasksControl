@@ -1,0 +1,63 @@
+.homeStyle{
+    width: 600px;
+    height: 900px;
+    border: 1px solid chartreuse;
+
+    display: flex;
+
+    margin: 100px auto;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.homeStyle header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: -15px;
+    margin-top: 10px;
+}
+
+.homeStyle h1{
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.areaInterative{
+    display: flex;
+    padding: 10px;
+}
+
+.areaInterative input{
+    display: flex;
+    flex: 3;
+    height: 50px;
+    background-color: #777;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.areaInterative button{
+    display: flex;
+    flex: 1;
+    margin-left: 20px;
+    background-color: chartreuse;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    font-weight: 700;
+    transition: filter 0.2s;
+    font-size: 16px;
+}
+
+.areaInterative button:hover{
+    filter: brightness(0.4);
+    cursor: pointer;
+}
